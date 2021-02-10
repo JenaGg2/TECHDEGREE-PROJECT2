@@ -2,12 +2,9 @@
     box-sizing: border-box;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    text-transform: capitalize;
+    
 
   }
-   body {
-     margin: 0;
-   }
   
   img {
     max-width: 100%;
@@ -16,8 +13,8 @@
   p {
     font-family: sans-serif;
     font-size: 1.2rem;;
-    
     text-align: center;
+    font-weight: 200;
   }
   
   li {
@@ -55,10 +52,12 @@
     font-size:0.5rem; 
 
   }
-
+  #contact {
+    margin-top: 80px;
+  }
   
   .nav {
-    border: 1px solid white;
+    
     width: 100%;
     background-color: white;
     margin-bottom: 5px;
@@ -66,24 +65,23 @@
   }
 
   
-  footer {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 600;
-    margin-top: 10px;
-    border-top: 2px solid rgb(100, 98, 98);
-    width: 100%;
-  }
-  
 
 
   .details {
     word-spacing: 40px;
   }
 
+  footer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 50px;
+    border-top: 2px solid rgb(100, 98, 98);
+    width: 100%;
 
+  }
 
-  .bottom-nav {
+ .bottom-nav {
     display: none;
   }
 
@@ -151,3 +149,48 @@
 
 
   /* MEDIA QUERY FOR DESKTOP */
+
+  @media screen and  (min-width: 1024px) {
+          
+    .main-container  {
+      display: flex;
+      justify-content: space-between ;
+      
+    }
+  
+
+  
+   .box1 {
+     width: 32%;
+   }
+
+  .box2 {
+    width: 32%;
+  }
+
+  .box3 {
+  width: 32%;
+}
+
+  .box4 {
+  width: 32%;
+
+
+}
+
+  .box5 {
+
+  width: 32%;
+}
+
+  .box6 {
+    width: 32%;
+  }
+
+  .top-nav {
+    display: flex;
+    margin: 0;
+  }
+}
+
+  
